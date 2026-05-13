@@ -1,4 +1,4 @@
-´´´python
+```python
 def number_pattern(n):
     if not isinstance(n, int):
         return 'Argument must be an integer value.'
@@ -11,4 +11,5 @@ def number_pattern(n):
     for number in range(1, n + 1):
         result += str(number) + ' '
     return result.strip()
-    ´´´
+
+````
